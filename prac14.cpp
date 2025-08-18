@@ -1,3 +1,4 @@
+//brute force approch for target sum indices printing.
 #include <iostream>
 #include <vector>
 #include <climits>
@@ -36,4 +37,5 @@ int main(){
     cin>>m;
     vector<int>vecans=majoelement(vecna,m);
     cout<<vecans[0]<<" "<<vecans[1];
+
 }    
